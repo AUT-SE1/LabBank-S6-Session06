@@ -1,0 +1,51 @@
+# Environment & Secrets (GEN-12)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.secrets*
+
+# Go Build & Binary Outputs
+starter
+starter.exe
+/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.txt
+vendor/
+
+# Frontend / Node Build Outputs
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# Python Environments & Cache
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+
+# IDEs & System Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.log
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
